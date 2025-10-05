@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios - Idea Publicidad El Salvador</title>
+  <link rel="shortcut icon" href="../images/LOGO_IPES.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+  body {
+    background: url("../images/Fondo4.png") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background: url("../images/boton_degradado_brilloso.png") no-repeat center center;
+    background-size: cover;
+  }
+
+  .navbar .nav-link {
+    background: url("../images/hora_redondeado.png") no-repeat center center;
+    background-size: cover;
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white !important;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .navbar .nav-link:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+
+  .section-box {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .section-title {
+    background: #0d47a1;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  .btn-custom {
+    background: #00e676;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 5px;
+  }
+
+  .btn-blue {
+    background: #2979ff;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 5px;
+    border: none;
+  }
+
+  footer {
+    background: url("../images/boton_degradado_brilloso.png") no-repeat center center;
+    background-size: cover;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+
+  .espaciarImagen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  #galeriaNoticias img {
+      width: 60px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="logo" width="120"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./acercade.html">Acerca de</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="./manuales.html">Manuales</a></li>
+          <li class="nav-item"><a class="nav-link" href="./noticias.html">Noticias</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="./descargas.html">Descargas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+
+    <!-- Sección: Nuestros servicios -->
+    <div class="section-box">
+      <span class="section-title">Nuestros servicios</span>
+      <ul class="list-unstyled mt-3">
+        <li>✔ Sistema de gestión de inventario</li>
+        <li>✔ Documentación de ayuda</li>
+        <li>✔ Sistema de gestión de usuarios</li>
+        <li>✔ Fácil modificación de cuenta</li>
+        <li>✔ Recuperación de cuenta</li>
+      </ul>
+      <img src="../images/Captura de pantalla 2025-09-28 161926.png" alt="Servicios" class="img-fluid mt-3 rounded">
+    </div>
+
+    <!-- Ejemplo de uso -->
+    <div class="section-box">
+      <span class="section-title">Ejemplo de uso del sistema</span>
+      <p class="mt-3">Al registrar cada entrada y salida de mercadería, el sistema actualiza automáticamente las existencias en tiempo real, evitando pérdidas por desabastecimiento o exceso de stock.</p>
+      <img src="../images/Registrarse.png" alt="Inventario" class="img-fluid mt-3 rounded">
+    </div>
+
+    <!-- Seguridad -->
+    <div class="section-box">
+      <span class="section-title">Tu información está segura</span>
+      <p class="mt-3">Puedes confiar en la aplicación, tus datos serán protegidos en el sistema.</p>
+      <img src="../images/usuario.png" alt="seguridad" class="img-fluid mt-3 rounded">
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Gestión Empresarial - Idea Publicidad El Salvador - Instituto Técnico Ricaldone - 2025 ©</p>
+    <div class="espaciarImagen">
+        <a href="https://www.instagram.com/gestionipes_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="../images/ig.png" alt="instagram" width="40"></a>
+        <a href="https://www.tiktok.com/@gestionipes_?_t=ZM-907aZ5RyWyK&_r=1"><img src="../images/tiktok.png" alt="tiktok" width="40"></a>
+        <a href="https://www.facebook.com/profile.php?id=61581648115859"><img src="../images/facebook.png" alt="facebook" width="40"></a>
+      </div>
+    <p>Síguenos en Nuestras Redes Sociales</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
