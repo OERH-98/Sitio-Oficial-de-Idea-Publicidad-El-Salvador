@@ -160,7 +160,7 @@
   <form id="contactForm">
     <div class="mb-3">
       <label class="form-label">Nombre</label>
-      <input type="text" name="nombre" class="form-control" required>
+      <input type="text" name="nombre" class="form-control" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="El nombre solo puede contener letras y espacios, no numeros, ni caracteres especiales.">
     </div>
     <div class="mb-3">
       <label class="form-label">Correo</label>
@@ -168,10 +168,10 @@
     </div>
     <div class="mb-3">
       <label class="form-label">Número de Teléfono</label>
-      <input type="tel" name="telefono" class="form-control">
+      <input type="tel" name="telefono" class="form-control" pattern="[0-9]+" title="El número de teléfono solo puede contener números, no letras.">
     </div>
     <div class="mb-3">
-      <label class="form-label">Comentario</label>
+      <label class="form-label">Comentario</label> 
       <textarea name="comentario" class="form-control" rows="3" required></textarea>
     </div>
     <button type="submit" class="btn btn-blue">Enviar</button>
